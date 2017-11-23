@@ -39,11 +39,11 @@
 适用问题：多类分类
 <br>与感知器算法贼像：
 <br>感知器算法
-> 当 Y = 1 时，wT⋅x 尽量等于 +1 
+> 当 Y = 1 时，wT⋅x 尽量等于 +1  
 > 当 Y = 0 时， wT⋅x 尽量等于 -1
 
 <br>而逻辑斯谛算法
-> 当 Y = 1 时，wT⋅x 尽量等于 +∞ 
+> 当 Y = 1 时，wT⋅x 尽量等于 +∞  
 > 当 Y = 0 时， wT⋅x 尽量等于 −∞
 
 <br>代码(此处只实现二项逻辑斯谛回归)：[logistic_regression/logistic_regression.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/logistic_regression/logistic_regression.py)
