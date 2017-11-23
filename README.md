@@ -28,9 +28,24 @@
 适用问题：多类分类
 <br>三个步骤：特征选择、决策树的生成和决策树的剪枝
 <br>常见的决策树算法有：ID3、C4.5和CART
-<br>ID3算法代码：[decision_tree/ID3.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/ID3.py)
+<br><br>ID3算法代码：[decision_tree/ID3.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/ID3.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/ID3_result.png)
-<br>C4.5算法代码：[decision_tree/C45.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/C45.py)
+<br><br>C4.5算法代码：[decision_tree/C45.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/C45.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/C45_result.png)
+
+## 第六章 逻辑斯谛回归
+适用问题：多类分类
+<br>与感知器算法贼像：
+<br>感知器算法
+> 当 Y = 1 时，wT⋅x 尽量等于 +1 
+> 当 Y = 0 时， wT⋅x 尽量等于 -1
+
+<br>而逻辑斯谛算法
+> 当 Y = 1 时，wT⋅x 尽量等于 +∞ 
+> 当 Y = 0 时， wT⋅x 尽量等于 −∞
+
+<br>代码(此处只实现二项逻辑斯谛回归)：[logistic_regression/logistic_regression.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/logistic_regression/logistic_regression.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/logistic_regression_result.png)
