@@ -23,3 +23,14 @@
 <br>代码：[naive_bayes/naive_bayes.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/naive_bayes/naive_bayes.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/naive_bayes_result.png)
+
+## 第五章 决策树
+适用问题：多类分类
+<br>三个步骤：特征选择、决策树的生成和决策树的剪枝
+<br>常见的决策树算法有：ID3、C4.5和CART
+<br>ID3算法代码：[decision_tree/ID3.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/ID3.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/ID3_result.png)
+<br>C4.5算法代码：[decision_tree/C45.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/C45.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/C45_result.png)
