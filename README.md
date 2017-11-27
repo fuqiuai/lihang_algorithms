@@ -1,6 +1,7 @@
 # lihang_algorithms
 用python3实现李航老师的《统计学习方法》中所提到的算法
-<br><br>实验数据：MNIST数据集
+<br><br>实验数据：MNIST数据集 
+(除非特别说明)
 <br>官方下载地址：http://yann.lecun.com/exdb/mnist/
 <br>kaggle中处理好的数据：https://www.kaggle.com/c/digit-recognizer/data
 
@@ -52,8 +53,9 @@
 
 ## 第六章 最大熵模型
 适用问题：多类分类
-$$ f(x,y)=\left\{\begin{matrix} 1 & (x,y)\in train set \\ 0 & else \end{matrix}\right. $$
-$$ J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，独立公式示例} $$
+<br>下面用改进的迭代尺度法（IIS）学习最大熵模型，将特征函数定义为：
+<br><a href="https://www.codecogs.com/eqnedit.php?latex=f(x,y)=\left\{\begin{matrix}&space;1&space;&&space;(x,y)\in&space;train&space;set&space;\\&space;0&space;&&space;else&space;\end{matrix}\right." target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x,y)=\left\{\begin{matrix}&space;1&space;&&space;(x,y)\in&space;train&space;set&space;\\&space;0&space;&&space;else&space;\end{matrix}\right." title="f(x,y)=\left\{\begin{matrix} 1 & (x,y)\in train set \\ 0 & else \end{matrix}\right." /></a>
+<br>与其他分类器不同的是，最大熵模型中的f(x,y)中的x是单独的一个特征，不是一个n维特征向量，因此我们需要对每个维度特征加一个区分标签;如X=(x0,x1,x2,...)变为X=(0_x0,1_x1,2_x2,...)
 <br>代码：[maxEnt/maxEnt.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/maxEnt/maxEnt.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/maxEnt_result.png)
