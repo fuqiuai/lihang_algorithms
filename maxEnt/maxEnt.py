@@ -101,7 +101,7 @@ class MaxEnt(object):
         # 第一步： 初始化参数值wi为0
         self.w = [0.0 for i in range(self.n)]
 
-        max_iteration = 1000  # 设置最大迭代次数
+        max_iteration = 500  # 设置最大迭代次数
         for times in range(max_iteration):
             print("the number of iterater : %d " % times)
 
@@ -149,8 +149,8 @@ if __name__ == '__main__':
     raw_data = pd.read_csv('../data/train.csv', header=0)  # 读取csv数据
     data = raw_data.values
 
-    features = data[:10:, 1::]
-    labels = data[:10:, 0]
+    features = data[:5000:, 1::]
+    labels = data[:5000:, 0]
 
     # 避免过拟合，采用交叉验证，随机选取33%数据作为测试集，剩余为训练集
     train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size=0.33, random_state=0)
