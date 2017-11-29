@@ -31,9 +31,9 @@
 适用问题：多类分类
 <br>三个步骤：特征选择、决策树的生成和决策树的剪枝
 <br>常见的决策树算法有：
-- **ID3：**特征划分基于**信息增益**
-- **C4.5：**特征划分基于**信息增益比**
-- **CART：**特征划分基于**基尼指数**
+- **ID3**：特征划分基于**信息增益**
+- **C4.5**：特征划分基于**信息增益比**
+- **CART**：特征划分基于**基尼指数**
 
 <br>ID3算法代码：[decision_tree/ID3.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/ID3.py)
 <br>运行结果：
