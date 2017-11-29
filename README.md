@@ -32,7 +32,8 @@
 - **ID3：**特征划分基于**信息增益**
 - **C4.5：**特征划分基于**信息增益比**
 - **CART：**特征划分基于**基尼指数**
-<br><br>ID3算法代码：[decision_tree/ID3.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/ID3.py)
+
+<br>ID3算法代码：[decision_tree/ID3.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/ID3.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/ID3_result.png)
 <br><br>C4.5算法代码：[decision_tree/C45.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/C45.py)
