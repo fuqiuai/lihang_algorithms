@@ -5,6 +5,8 @@
 <br>官方下载地址：http://yann.lecun.com/exdb/mnist/
 <br>kaggle中处理好的数据：https://www.kaggle.com/c/digit-recognizer/data
 
+* * *
+
 ## 第二章 感知机
 适用问题：二类分类
 <br>代码：[perceptron/perceptron.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/perceptron/perceptron.py)
