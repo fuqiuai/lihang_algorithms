@@ -28,7 +28,10 @@
 ## 第五章 决策树
 适用问题：多类分类
 <br>三个步骤：特征选择、决策树的生成和决策树的剪枝
-<br>常见的决策树算法有：ID3、C4.5和CART
+<br>常见的决策树算法有：
+- **ID3：**特征划分基于**信息增益**
+- **C4.5：**特征划分基于**信息增益比**
+- **CART：**特征划分基于**基尼指数**
 <br><br>ID3算法代码：[decision_tree/ID3.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/ID3.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/ID3_result.png)
@@ -59,3 +62,14 @@
 <br>代码：[maxEnt/maxEnt.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/maxEnt/maxEnt.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/maxEnt_result.png)
+
+## 第七章 支持向量机
+适用问题：二类分类
+<br>SVM有三种模型，由简至繁为
+- 当训练数据训练可分时，通过硬间隔最大化，可学习到**硬间隔支持向量机**，又叫**线性可分支持向量机**
+- 当训练数据训练近似可分时，通过软间隔最大化，可学习到**软间隔支持向量机**，又叫**线性支持向量机**
+- 当训练数据训练不可分时，通过软间隔最大化及**核技巧(kernel trick)**，可学习到**非线性支持向量机**
+
+<br>代码(用sklearn实现)：[svm/svm.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/svm/svm.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/svm_result.png)
