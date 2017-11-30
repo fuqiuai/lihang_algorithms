@@ -1,7 +1,6 @@
 # lihang_algorithms
 用python3实现李航老师的《统计学习方法》中所提到的算法
-<br><br>实验数据：MNIST数据集 
-(除非特别说明)
+<br><br>实验数据：MNIST数据集,这里用kaggle中处理好的数据
 <br>官方下载地址：http://yann.lecun.com/exdb/mnist/
 <br>kaggle中处理好的数据：https://www.kaggle.com/c/digit-recognizer/data
 
@@ -58,19 +57,19 @@
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/C45_result.png)
 
 ## 第六章 逻辑斯谛回归
-适用问题：多类分类
-<br>与感知器算法贼像：
-<br>感知器算法
-> 当 Y = 1 时，wT⋅x 尽量等于 +1  
-> 当 Y = 0 时， wT⋅x 尽量等于 -1
-
-<br>而逻辑斯谛算法
-> 当 Y = 1 时，wT⋅x 尽量等于 +∞  
-> 当 Y = 0 时， wT⋅x 尽量等于 −∞
-
-<br>代码(此处只实现二项逻辑斯谛回归)：[logistic_regression/logistic_regression.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/logistic_regression/logistic_regression.py)
+### 二项逻辑斯谛回归
+适用问题：二类分类
+<br>可类比于感知机算法
+<br>实验数据：[train_binary.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train_binary.csv)
+<br>代码：[logistic_regression/logistic_regression.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/logistic_regression/logistic_regression.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/logistic_regression_result.png)
+### (多项)逻辑斯谛回归
+适用问题：多类分类
+<br>实验数据：[train.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train.csv)
+<br>代码(用sklearn实现)：[logistic_regression/logistic_regression_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/logistic_regression/logistic_regression_sklearn.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/logistic_regression_sklearn_result.png)
 
 ## 第六章 最大熵模型
 适用问题：多类分类
