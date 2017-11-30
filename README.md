@@ -101,6 +101,6 @@
 适用问题：多类分类
 <br>代码(用sklearn实现)：[AdaBoost/AdaBoost_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/AdaBoost/AdaBoost_sklearn.py)
 <br>实验数据为[train.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train.csv)的运行结果：
-<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/AdaBoost_sklearn_result_1.png)
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/Adaboost_sklearn_result_1.png)
 <br>实验数据为[train_binary.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train_binary.csv)的运行结果：
-<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/AdaBoost_sklearn_result_2.png)
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/Adaboost_sklearn_result_2.png)
