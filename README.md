@@ -9,6 +9,7 @@
 
 ## 第二章 感知机
 适用问题：二类分类
+<br>实验数据：由于是二分类器，所以将MINST数据集[train.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train.csv)的label列进行了一些微调，label等于0的继续等于0，label大于0改为1。这样就将十分类的数据改为二分类的数据。获取地址[train_binary.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train_binary.csv)
 <br><br>代码：[perceptron/perceptron.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/perceptron/perceptron.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/perceptron_result.png)
@@ -82,6 +83,7 @@
 
 ## 第七章 支持向量机
 适用问题：二类分类
+<br>实验数据：二分类的数据 [train_binary.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train_binary.csv)
 <br>SVM有三种模型，由简至繁为
 - 当训练数据训练可分时，通过硬间隔最大化，可学习到**硬间隔支持向量机**，又叫**线性可分支持向量机**
 - 当训练数据训练近似可分时，通过软间隔最大化，可学习到**软间隔支持向量机**，又叫**线性支持向量机**
