@@ -9,9 +9,12 @@
 
 ## 第二章 感知机
 适用问题：二类分类
-<br>代码：[perceptron/perceptron.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/perceptron/perceptron.py)
+<br><br>代码：[perceptron/perceptron.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/perceptron/perceptron.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/perceptron_result.png)
+<br><br>代码(用sklearn实现)：[perceptron/perceptron_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/perceptron/perceptron_sklearn.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/perceptron_sklearn_result.png)
 
 ## 第三章 k邻近法
 适用问题：多类分类
