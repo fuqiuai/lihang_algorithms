@@ -55,6 +55,9 @@
 <br><br>C4.5算法代码：[decision_tree/C45.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/C45.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/C45_result.png)
+<br><br>CART算法代码(用sklearn实现)：[decision_tree/decision_tree_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/decision_tree/decision_tree_sklearn.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/decision_tree_sklearn_result.png)
 
 ## 第六章 逻辑斯谛回归
 ### 二项逻辑斯谛回归
