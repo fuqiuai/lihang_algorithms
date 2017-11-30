@@ -16,14 +16,22 @@
 ## 第三章 k邻近法
 适用问题：多类分类
 <br>三个基本要素：k值的选择、距离度量及分类决策规则
-<br>代码：[knn/knn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/knn/knn.py)
+<br><br>代码：[knn/knn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/knn/knn.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/knn_result.png)
+<br><br>代码(用sklearn实现)：[knn/knn_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/knn/knn_sklearn.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/knn_sklearn_result.png)
 
 ## 第四章 朴素贝叶斯法
 适用问题：多类分类
 <br>基于贝叶斯定理和特征条件独立假设
-<br>代码：[naive_bayes/naive_bayes.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/naive_bayes/naive_bayes.py)
+<br>常用的三个模型有：
+- 多项式模型：最常见
+- 高斯模型：
+- 伯努利模型
+
+<br>代码（基于多项式模型）：[naive_bayes/naive_bayes.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/naive_bayes/naive_bayes.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/naive_bayes_result.png)
 
@@ -73,6 +81,6 @@
 - 当训练数据训练近似可分时，通过软间隔最大化，可学习到**软间隔支持向量机**，又叫**线性支持向量机**
 - 当训练数据训练不可分时，通过软间隔最大化及**核技巧(kernel trick)**，可学习到**非线性支持向量机**
 
-<br>代码(用sklearn实现)：[svm/svm.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/svm/svm.py)
+<br>代码(用sklearn实现)：[svm/svm_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/svm/svm_sklearn.py)
 <br>运行结果：
-<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/svm_result.png)
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/svm_sklearn_result.png)
