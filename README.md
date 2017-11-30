@@ -27,13 +27,16 @@
 适用问题：多类分类
 <br>基于贝叶斯定理和特征条件独立假设
 <br>常用的三个模型有：
-- 多项式模型：最常见
-- 高斯模型：
-- 伯努利模型
+- 高斯模型：处理特征是连续型变量的情况
+- 多项式模型：最常见，要求特征是离散数据
+- 伯努利模型：要求特征是离散的，且为布尔类型，即true和false，或者1和0
 
 <br>代码（基于多项式模型）：[naive_bayes/naive_bayes.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/naive_bayes/naive_bayes.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/naive_bayes_result.png)
+<br><br>代码（基于多项式模型，用sklearn实现）：[naive_bayes/naive_bayes_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/naive_bayes/naive_bayes_sklearn.py)
+<br>运行结果：
+<br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/naive_bayes_sklearn_result.png)
 
 ## 第五章 决策树
 适用问题：多类分类
