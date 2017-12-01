@@ -79,7 +79,7 @@
 <br>下面用改进的迭代尺度法（IIS）学习最大熵模型，将特征函数定义为：
 <br><a href="https://www.codecogs.com/eqnedit.php?latex=f(x,y)=\left\{\begin{matrix}&space;1&space;&&space;(x,y)\in&space;train&space;set&space;\\&space;0&space;&&space;else&space;\end{matrix}\right." target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x,y)=\left\{\begin{matrix}&space;1&space;&&space;(x,y)\in&space;train&space;set&space;\\&space;0&space;&&space;else&space;\end{matrix}\right." title="f(x,y)=\left\{\begin{matrix} 1 & (x,y)\in train set \\ 0 & else \end{matrix}\right." /></a>
 <br>与其他分类器不同的是，最大熵模型中的f(x,y)中的x是单独的一个特征，不是一个n维特征向量，因此我们需要对每个维度特征加一个区分标签;如X=(x0,x1,x2,...)变为X=(0_x0,1_x1,2_x2,...)
-<br>代码：[maxEnt/maxEnt.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/maxEnt/maxEnt.py)
+<br><br>代码：[maxEnt/maxEnt.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/maxEnt/maxEnt.py)
 <br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/maxEnt_result.png)
 
@@ -98,9 +98,9 @@
 ## 第八章 提升方法
 提升方法就是组合一系列弱分类器构成一个强分类器，AdaBoost是其代表性算法
 ### AdaBoost算法
-适用问题：多类分类
+适用问题：二类分类，要处理多类分类需进行改进
 <br>代码(用sklearn实现)：[AdaBoost/AdaBoost_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/AdaBoost/AdaBoost_sklearn.py)
-<br>实验数据为[train.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train.csv)的运行结果：
+<br><br>实验数据为[train.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train.csv)的运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/Adaboost_sklearn_result_1.png)
-<br>实验数据为[train_binary.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train_binary.csv)的运行结果：
+<br><br>实验数据为[train_binary.csv](https://github.com/fuqiuai/lihang_algorithms/blob/master/data/train_binary.csv)的运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/Adaboost_sklearn_result_2.png)
