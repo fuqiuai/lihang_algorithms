@@ -92,8 +92,8 @@
 - 当训练数据训练不可分时，通过软间隔最大化及**核技巧(kernel trick)**，可学习到**非线性支持向量机**
 
 <br>代码(用sklearn实现)：[svm/svm_sklearn.py](https://github.com/fuqiuai/lihang_algorithms/blob/master/svm/svm_sklearn.py)
-<br>注：可用拆解法（如OvO，OvR）将svm扩展成适用于多分类问题（其他二分类问题亦可），sklearn中已经实现
-<br>运行结果：
+<br>*注：可用拆解法（如OvO，OvR）将svm扩展成适用于多分类问题（其他二分类问题亦可），sklearn中已经实现*
+<br><br>运行结果：
 <br>![](https://raw.githubusercontent.com/fuqiuai/lihang_algorithms/master/imgs/svm_sklearn_result.png)
 
 ## 第八章 提升方法
