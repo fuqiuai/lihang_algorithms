@@ -1,5 +1,5 @@
 # lihang_algorithms
-用python3实现李航老师的《统计学习方法》中所提到的算法
+用python和sklearn实现李航老师的《统计学习方法》中所提到的算法
 <br><br>实验数据：MNIST数据集,这里用kaggle中处理好的数据
 <br>官方下载地址：http://yann.lecun.com/exdb/mnist/
 <br>kaggle中处理好的数据：https://www.kaggle.com/c/digit-recognizer/data
